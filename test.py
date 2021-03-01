@@ -1,5 +1,5 @@
-import bitcoinprice as bcp
+import cryptoprice as cp
 
-Main = bcp.Crypto('BTC')
+Main = cp.Crypto('BTC')
 price = Main.check()
 print(price["data"]["amount"])
